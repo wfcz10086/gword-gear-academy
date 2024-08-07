@@ -1,3 +1,4 @@
+use gword_io::*;
 use gsession_io::*;
 use gtest::{Log, ProgramBuilder, System};
 

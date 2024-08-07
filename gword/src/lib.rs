@@ -1,7 +1,7 @@
 #![no_std]
 use gstd::{collections::HashMap, exec, msg, prelude::*, ActorId};
 use gword_io::*;
-
+// test
 // 全局可变变量，存储游戏状态
 static mut WORDLE: Option<Wordle> = None;
 
