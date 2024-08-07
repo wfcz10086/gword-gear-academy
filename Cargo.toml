@@ -1,6 +1,5 @@
 [workspace]
 resolver = "2"
-
 members = ["gsession", "gword"]
 
 [workspace.package]
