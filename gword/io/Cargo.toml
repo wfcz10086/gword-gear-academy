@@ -1,0 +1,13 @@
+[package]
+name = "gword-io"
+version.workspace = true
+edition.workspace = true
+publish.workspace = true
+
+[dependencies]
+gmeta.workspace = true
+gstd.workspace = true
+parity-scale-codec.workspace = true
+scale-info.workspace = true
+
+

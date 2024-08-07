@@ -1,0 +1,22 @@
+[package]
+name = "gsession"
+version.workspace = true
+edition.workspace = true
+publish.workspace = true
+
+[dependencies]
+gmeta.workspace = true
+gstd.workspace = true
+parity-scale-codec.workspace = true
+scale-info.workspace = true
+gsession-io.workspace = true
+
+[dev-dependencies]
+gstd.workspace = true
+gtest.workspace = true
+gclient.workspace = true
+tokio.workspace = true
+
+[build-dependencies]
+gear-wasm-builder.workspace = true
+gsession-io.workspace = true
